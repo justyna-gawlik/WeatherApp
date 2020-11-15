@@ -1,0 +1,121 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
+}
+
+.container-fluid {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8% !important;
+    max-width: 90%;
+    margin: auto;
+    border-radius: 12px 12px 12px 12px;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+    border: 0.5px solid #000000;
+    -webkit-box-shadow: -7px 6px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -7px 6px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -7px 6px 14px 0px rgba(0, 0, 0, 0.75);
+    background-color: #fff0f5;
+}
+
+h1 {
+    text-align: center;
+    font-size: 8vh !important;
+    font-weight: 700;
+    color: #1d2d50;
+    text-shadow: -1px -1px 2px rgba(151, 150, 150, 1);
+    text-shadow: 1px 1px 0px rgba(151, 150, 150, 1);
+    margin: 1% 0 0 0;
+}
+
+h2 {
+    margin-top: 2%;
+    text-align: center;
+    font-size: 6vh !important;
+    font-weight: 700;
+    color: #1d2d50;
+    text-shadow: -1px -1px 2px rgba(151, 150, 150, 1);
+    text-shadow: 1px 1px 0px rgba(151, 150, 150, 1);
+}
+
+
+p {
+    margin: 1% 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: 400;
+    color: #133b5c;
+    -webkit-text-stroke: 0.05px white;
+    opacity: 0.9;
+}
+
+.btn.btn-lg {
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    text-align: center;
+    border-radius: 50%;
+    height: 15vh;
+    width: 17vh;
+    color: white;
+    border: none;
+    background-color: #1d2d50;
+    cursor: pointer;
+    font-size: 3vh;
+    margin-top: -5vh;
+}
+
+.btn.btn-lg:hover {
+    color: #f1f3f8;
+    background-color: #133b5c;
+}
+
+
+.image {
+    text-align: center;
+}
+
+.page-footer.font-small.indigo {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #394867;
+    margin-top: 2vh !important;
+    height: 7%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    font-size: 2vh !important;
+    padding-top: 3vh;
+    font-weight: 300;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
