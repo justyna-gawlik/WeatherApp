@@ -4,15 +4,11 @@
 
 ## Table of contents
 
-- [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Setup](#setup)
 - [Features](#features)
 
-## Screenshots
-
-![Example screenshot1](./weather1.png)
-![Example screenshot2](./weather2.png)
+![](weather.gif)
 
 ## Technologies
 
