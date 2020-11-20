@@ -1,0 +1,102 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #af8baf;
+    background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
+}
+
+.container-fluid {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10% !important;
+    width: 90%;
+    text-align: center;
+    border-radius: 12px 12px 12px 12px;
+    -moz-border-radius: 12px 12px 12px 12px;
+    -webkit-border-radius: 12px 12px 12px 12px;
+    border: 0.5px solid #000000;
+    -webkit-box-shadow: -7px 6px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -7px 6px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -7px 6px 14px 0px rgba(0, 0, 0, 0.75);
+    background-color: white;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 8vh !important;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    color: #584153;
+    text-shadow: -2px -1px 8px rgba(151, 150, 150, 1);
+    text-shadow: 2px 1px 0px rgba(151, 150, 150, 1);
+    -webkit-text-stroke: 1px black;
+}
+
+.btn.btn-lg {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
+    color: white;
+    float: right;
+    border: none;
+    background-color: #ffd571;
+    cursor: pointer;
+    font-size: 3vh;
+    margin-top: -4vh;
+    text-align: center;
+}
+
+
+.btn.btn-lg:hover {
+    color: #fff3f8;
+    background-color: #ffe682;
+}
+
+.page-footer.font-small.indigo {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #584153;
+    margin-top: 3vh !important;
+    height: 9%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.page-footer.font-small.indigo p {
+    font-size: 2vh !important;
+    padding-top: 3vh;
+    font-weight: 300;
+}
+
+.fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 2;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 2;
+    }
+}
