@@ -33,8 +33,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
-                    // res.write("<img  src='animated/day.svg'></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-day-sunny.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -48,7 +46,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-day-cloudy.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -64,7 +61,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-cloud.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -79,7 +75,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-cloudy.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -94,7 +89,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-rain-mix.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -109,7 +103,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-day-rain-mix.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -125,7 +118,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-day-thunderstorm.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -141,7 +133,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-day-snow.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -157,7 +148,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-day-fog.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -172,7 +162,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-night-fog.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -186,7 +175,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-night-snow.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -200,7 +188,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-night-thunderstorm.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -214,7 +201,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-night-showers.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -228,7 +214,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-rain-mix.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -242,7 +227,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-cloudy.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -256,7 +240,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-cloud.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -270,7 +253,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-night-cloudy.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -284,7 +266,6 @@ app.post("/", function (req, res) {
                     res.write("<h2>"+_.upperFirst(query)+"</h2>");
                     res.write("<p>"+description+"</p>");
                     res.write("<div class='image'>");
-                    // res.write("<img style=width:20vh; style=height:20vh; src=" + imageURL + "></img>");
                     res.write("<img style=width:20vh; style=height:20vh; src='svg/wi-night-clear.svg'></img>");
                     res.write("</div>");
                     res.write("<h1>"+temp+ "</h1>");
@@ -310,14 +291,9 @@ app.post("/error", function (req, res) {
     res.redirect("/");
 });
 
-
-app.listen(process.env.PORT, function () {
-    console.log("Server is running");
+app.listen(3000, function () {
+  console.log("Server is running");
 })
-
-// app.listen(3000, function () {
-//   console.log("Server is running");
-// })
 
 
 
